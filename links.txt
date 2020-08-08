@@ -14,4 +14,9 @@ grid.css
 http://www.responsivegridsystem.com/calculator/
 Here is the explanation of what a grid does:
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout#:~:text=CSS%20Grid%20Layout%20excels%20at,elements%20into%20columns%20and%20rows.
-------------
+-------------
+flat ui colors
+--------------
+This website is used to get values of colors.
+https://flatuicolors.com/palette/defo
+---------------

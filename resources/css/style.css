@@ -22,13 +22,13 @@ html {
 /*We will set backgroun image of header to hero*/
 header {
     /*LG is used to make the image darker (transparent). */
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     /*This will use the image as a cover in the header.*/
     background-size: cover;
     background-position: center;
     /*This will let the image cover (number %)vh of the browswer.*/
     height: 100vh;
-    
+
 }
 
 .hero-text-box {
@@ -44,5 +44,44 @@ header {
 
 /*This will keep the header background image all the way up*/
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /*Color of text Goodbye.*/
+    color: #fff;
+    /*Size of Goodbye text.*/
+    font-size: 240%;
+    /*Makes letters thinner.*/
+    font-weight: 300;
+    /*Makes all text uppercase*/
+    text-transform: uppercase;
+    /*This is space between letters*/
+    letter-spacing: 1px;
+    /*This is space between words*/
+    word-spacing: 4px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    /*Type of letters we want (letter thickness)*/
+    font-weight: 300;
+    text-decoration: none;
+    /*making the button circular*/
+    border-radius: 200px;
+}
+
+.btn-full {
+
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    /*Changing color inside of buttons to white.*/
+    color: #fff;
+}
+
+.btn-ghost {
+
+    border: 1px solid #e67e22;
+    /*Changing color inside of buttons to white.*/
+    color: #e67e22;
 }
