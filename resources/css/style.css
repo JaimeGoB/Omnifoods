@@ -21,7 +21,8 @@ html {
 
 /*We will set backgroun image of header to hero*/
 header {
-    background-image: url(img/hero.jpg);
+    /*LG is used to make the image darker (transparent). */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(img/hero.jpg);
     /*This will use the image as a cover in the header.*/
     background-size: cover;
     background-position: center;
