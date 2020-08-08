@@ -70,6 +70,8 @@ h1 {
     text-decoration: none;
     /*making the button circular*/
     border-radius: 200px;
+    /*This will make changes wait x amont of seconds to appear*/
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 
@@ -80,6 +82,8 @@ h1 {
     border: 1px solid #e67e22;
     /*Changing color inside of buttons to white.*/
     color: #fff;
+    /*Making right margin of button bigger. Bigger space between buttons*/
+    margin-right: 15px;
 }
 
 .btn-ghost:link,
@@ -90,7 +94,26 @@ h1 {
     color: #e67e22;
 }
 
+/*This will change behavior of the colors when you get mouse close them.*/
 .btn:hover,
 .btn:active {
+    /*For both buttos they will get darker orange*/
     background-color: #cf6d17;
 }
+
+/*This will change behavior of the colors when you get mouse close them.*/
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #e67e22;
+}
+
+/*This will change behavior of the colors when you get mouse close them.*/
+.btn-ghost:link,
+.btn-ghost:visited {
+
+    border: 1px solid #e67e22;
+    /*Text will be white even you hover over the button.*/
+    color: #fff;
+}
+
+
