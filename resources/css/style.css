@@ -18,3 +18,30 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/*We will set backgroun image of header to hero*/
+header {
+    background-image: url(img/hero.jpg);
+    /*This will use the image as a cover in the header.*/
+    background-size: cover;
+    background-position: center;
+    /*This will let the image cover (number %)vh of the browswer.*/
+    height: 100vh;
+    
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    /*50 away from the top*/
+    top: 50%;
+    /*50 away from the left*/
+    left: 50%;
+    /*This will keep textbox centered in the header.*/
+    transform: translate(-50%, -50%);
+}
+
+/*This will keep the header background image all the way up*/
+h1 {
+    margin: 0;
+}
