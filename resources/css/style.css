@@ -140,5 +140,27 @@ header {
 }
 
 .main-nav {
+    /*Moving the list to right part of website.*/
     float: right;
+    /*This gets rid of bullet points setup on ul tag in html file*/
+    list-style: none;
 }
+
+.main-nav li {
+    /*Before this the list was display from top to bottom now its left to right.*/
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.main-nav li a {
+    /*Changing the words to white color for all elements in list.*/
+    color: #fff;
+    /*This will get rid of the underline for links*/
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%; 
+}
+
+
+
