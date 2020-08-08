@@ -29,11 +29,27 @@ html {
     margin: 0 auto;
 }
 
+section {
+    /*We will have top and bottom 80 maring and 0 left and right*/
+    padding: 80px 0px;
+}
 
+.box {
+    padding: 1px;
+}
 /*-----------------------------------------*/
 /*Headings*/
 /*-----------------------------------------*/
 /*This will keep the header background image all the way up*/
+h1,
+h2,
+h3{
+    /*Makes letters thinner.*/
+    font-weight: 300;
+    /*Makes all text uppercase*/
+    text-transform: uppercase;
+}
+/*Goodby junk food ..*/
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -41,17 +57,63 @@ h1 {
     color: #fff;
     /*Size of Goodbye text.*/
     font-size: 240%;
-    /*Makes letters thinner.*/
-    font-weight: 300;
-    /*Makes all text uppercase*/
-    text-transform: uppercase;
-    /*This is space between letters*/
-    letter-spacing: 1px;
     /*This is space between words*/
     word-spacing: 4px;
-
+        /*This is space between letters*/
+    letter-spacing: 1px;
 }
 
+/*Get food fast ...*/
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    /*This is space between letters*/
+    letter-spacing: 1px;
+    
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+/*This is use to create organe line after Get Food Fast*/
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*-----------------------------------------*/
+/*Paragraphs*/
+/*-----------------------------------------*/
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/*-----------------------------------------*/
+/*Icons*/
+/*-----------------------------------------*/
+/*This will be use to modify icons. We will make them orange
+also we will make them bigger*/
+.icon-big {
+    font-size: 400%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
 
 /*-----------------------------------------*/
 /*Buttons*/
