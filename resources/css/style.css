@@ -1,3 +1,7 @@
+/*Orange coloer: 
+#e67e22;
+*/
+
 /*-----------------------------------------*/
 /*Basic Setup*/
 /*-----------------------------------------*/
@@ -137,6 +141,8 @@ header {
     height: 100px;
     width: auto;
     float: left;
+    margin-top: 20px;
+    margin-left: 55px;
 }
 
 .main-nav {
@@ -150,17 +156,27 @@ header {
     /*Before this the list was display from top to bottom now its left to right.*/
     display: inline-block;
     margin-left: 40px;
-    
+
 }
 
-.main-nav li a {
+.main-nav li a:link,
+.main-nav li a:visited {
     /*Changing the words to white color for all elements in list.*/
     color: #fff;
     /*This will get rid of the underline for links*/
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90%; 
+    font-size: 90%;
+    /*this will create space between underline and words in list*/
+    padding: 8px 0;
+    /*Create invisible solid line for active and hover*/
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
 }
 
-
-
+.main-nav li a:hover,
+.main-nav li a:active {
+    /*Create solid orange line when hover or active on the nav list.*/
+    border-bottom: 2px solid #e67e22;
+}
