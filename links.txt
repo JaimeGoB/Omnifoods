@@ -25,3 +25,8 @@ https://flatuicolors.com/palette/defo
 This website can let you enter any color in #fff; format and give you different shades. This is good for when you button background color.
 https://www.0to255.com/
 ----------------------
+ionicons
+---------------------
+This website will let you donwload a lot of regular cool icons. 
+https://ionicons.com/v2/
+----------------------
