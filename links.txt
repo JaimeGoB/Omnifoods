@@ -1,0 +1,17 @@
+RESOURCES:
+
+------------
+normalize.css
+-------------
+https://necolas.github.io/normalize.css/8.0.1/normalize.css
+----------------------------------
+google Lato font(this font will not be download, it will be used from google)
+-----------------------------------
+https://fonts.google.com/specimen/Latosidebar.open=true&selection.family=Lato:ital,wght@0,100;0,300;0,400;1,300
+------------
+grid.css
+------------
+http://www.responsivegridsystem.com/calculator/
+Here is the explanation of what a grid does:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout#:~:text=CSS%20Grid%20Layout%20excels%20at,elements%20into%20columns%20and%20rows.
+------------
