@@ -1,3 +1,6 @@
+/*-----------------------------------------*/
+/*Basic Setup*/
+/*-----------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -14,34 +17,18 @@ html {
 
 }
 
+/*-----------------------------------------*/
+/*Reusable Components*/
+/*-----------------------------------------*/
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-/*We will set backgroun image of header to hero*/
-header {
-    /*LG is used to make the image darker (transparent). */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    /*This will use the image as a cover in the header.*/
-    background-size: cover;
-    background-position: center;
-    /*This will let the image cover (number %)vh of the browswer.*/
-    height: 100vh;
 
-}
-
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    /*50 away from the top*/
-    top: 50%;
-    /*50 away from the left*/
-    left: 50%;
-    /*This will keep textbox centered in the header.*/
-    transform: translate(-50%, -50%);
-}
-
+/*-----------------------------------------*/
+/*Headings*/
+/*-----------------------------------------*/
 /*This will keep the header background image all the way up*/
 h1 {
     margin-top: 0;
@@ -61,6 +48,10 @@ h1 {
 
 }
 
+
+/*-----------------------------------------*/
+/*Buttons*/
+/*-----------------------------------------*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -116,4 +107,38 @@ h1 {
     color: #fff;
 }
 
+/*-----------------------------------------*/
+/*Header*/
+/*-----------------------------------------*/
+/*We will set backgroun image of header to hero*/
+header {
+    /*LG is used to make the image darker (transparent). */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    /*This will use the image as a cover in the header.*/
+    background-size: cover;
+    background-position: center;
+    /*This will let the image cover (number %)vh of the browswer.*/
+    height: 100vh;
 
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    /*50 away from the top*/
+    top: 50%;
+    /*50 away from the left*/
+    left: 50%;
+    /*This will keep textbox centered in the header.*/
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+}
