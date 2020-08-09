@@ -247,6 +247,9 @@ header {
 /*-----------------------------------------*/
 /*Meals*/
 /*-----------------------------------------*/
+.section-meals {
+    padding-top: 0;
+}
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -261,8 +264,19 @@ header {
 .meal-photo {
     width: 100%;
     margin: 0;
+    /*If image is bigger than container its stored do not show.*/
+    overflow: hidden;
 }
 
 .meal-photo img {
     width: 100%;
+    /*Make image bigger.*/
+    transform: scale(1.15);
+    transition: transform 0.5s;
 }
+
+.meal-photo img:hover {
+    /*Make image bigger.*/
+    transform: scale(1.03);
+}
+
