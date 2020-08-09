@@ -21,7 +21,10 @@ html {
 
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -46,18 +49,20 @@ section {
 .box {
     padding: 1px;
 }
+
 /*-----------------------------------------*/
 /*Headings*/
 /*-----------------------------------------*/
 /*This will keep the header background image all the way up*/
 h1,
 h2,
-h3{
+h3 {
     /*Makes letters thinner.*/
     font-weight: 300;
     /*Makes all text uppercase*/
     text-transform: uppercase;
 }
+
 /*Goodby junk food ..*/
 h1 {
     margin-top: 0;
@@ -68,7 +73,7 @@ h1 {
     font-size: 240%;
     /*This is space between words*/
     word-spacing: 4px;
-        /*This is space between letters*/
+    /*This is space between letters*/
     letter-spacing: 1px;
 }
 
@@ -80,13 +85,14 @@ h2 {
     margin-bottom: 30px;
     /*This is space between letters*/
     letter-spacing: 1px;
-    
+
 }
 
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
+
 /*This is use to create organe line after Get Food Fast*/
 h2:after {
     display: block;
@@ -124,14 +130,14 @@ also we will make them bigger*/
     margin-bottom: 10px;
 }
 
-.icon-small{
+.icon-small {
     display: inline-block;
     width: 30px;
     text-align: center;
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-    
+
     /*Secrets to align text and icons.*/
     line-height: 120%;
     vertical-align: middle;
@@ -148,7 +154,7 @@ a:active {
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
-    
+
 }
 
 a:hover,
@@ -229,6 +235,8 @@ header {
     background-position: center;
     /*This will let the image cover (number %)vh of the browswer.*/
     height: 100vh;
+    /*This provides a cool effect of image staying in the same place asa you scroll*/
+    background-attachment: fixed;
 
 }
 
@@ -301,6 +309,7 @@ header {
 .section-meals {
     padding-top: 0;
 }
+
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -317,7 +326,8 @@ header {
     margin: 0;
     /*If image is bigger than container its stored do not show.*/
     overflow: hidden;
-    background-color: #000;;
+    background-color: #000;
+    ;
 }
 
 .meal-photo img {
@@ -340,7 +350,7 @@ header {
 /*How it works*/
 /*-----------------------------------------*/
 
-.section-steps{
+.section-steps {
     /*Adding background color to how it works section*/
     background-color: #f4f4f4;
 }
@@ -364,11 +374,11 @@ header {
     margin-bottom: 50px;
 }
 
-.works-step:last-of-type{
+.works-step:last-of-type {
     margin-bottom: 80px;
 }
 
-.works-step div{
+.works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
     display: inline-block;
@@ -381,15 +391,15 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
-    
+
 }
 
 .btn-app:link,
-.btn-app:visited{
+.btn-app:visited {
     border: 0;
 }
 
-.btn-app img{
+.btn-app img {
     height: 50px;
     width: auto;
     margin-right: 10px;
@@ -399,15 +409,25 @@ header {
 /*Cities*/
 /*-----------------------------------------*/
 
-.box img{
+.box img {
     width 100%;
     height: auto;
     margin-bottom: 15px;
 }
 
-.city-feature{
+.city-feature {
     margin-bottom: 5px;
 }
 
+/*-----------------------------------------*/
+/*Customer Testimonials*/
+/*-----------------------------------------*/
 
-
+.section-testimonials {
+    /*Setting the gradient to an opac color will make super bright image dark*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    /*This provides a cool effect of image staying in the same place asa you scroll*/
+    background-attachment: fixed;
+}
