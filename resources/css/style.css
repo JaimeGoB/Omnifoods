@@ -215,14 +215,20 @@ a:visited {
 }
 
 /*This will change behavior of the colors when you get mouse close them.*/
-.btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:hover,
+.btn-ghost:active {
 
     border: 1px solid #e67e22;
     /*Text will be white even you hover over the button.*/
     color: #fff;
 }
 
+/*.btn-ghost:link,
+.btn-ghost:visited,
+    {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}*/
 /*-----------------------------------------*/
 /*Header*/
 /*-----------------------------------------*/
@@ -431,3 +437,101 @@ header {
     /*This provides a cool effect of image staying in the same place asa you scroll*/
     background-attachment: fixed;
 }
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\0022";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+cite img {
+    height: 45px;
+    /*Making pictures of customer circular*/
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*-----------------------------------------*/
+/*Section-Plans*/
+/*-----------------------------------------*/
+
+.section-plans {
+    background-color: #f4f4f4;
+
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #e3e3e3;
+}
+
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #efefef;
+
+
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul{
+    list-style: none;
+    
+}
+
+.plan-style ul li{
+    padding: 5px 0;
+}
+
+
